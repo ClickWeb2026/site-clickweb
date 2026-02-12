@@ -13,14 +13,14 @@ const projects = [
   id: 2,
   title: 'Fachinis Doces',
   category: 'Gestão de Instagram',
-  image: '/ivan-hair-logo.jpg',
+  image: '/fachinis-logo.jpg',
   url: 'https://www.instagram.com/fachinis_doces?igsh=MTdiMXpiYjN2aTdlag=='
 },
 {
   id: 3,
   title: 'Barbearia Ivan Hair',
   category: 'Gestão de Instagram',
-  image: '/fachinis-logo.jpg',
+  image: '/ivan-hair-logo.jpg',
   url: 'https://www.instagram.com/barbeariaivanhair?igsh=Z3YwaHdneXhlZ2N5'
 }];
 
