@@ -9,6 +9,14 @@ const testimonials = [
   company: 'Vet Leste - Clínica Veterinária',
   rating: 5,
   text: 'O site ficou sensacional!!! Você deixou muito mais didático, claro e objetivo!!! Muito, muito obrigada!!! Que Deus te abençoe!!!'
+},
+{
+  id: 2,
+  name: 'Marina',
+  role: 'Proprietária',
+  company: 'Fachinis Doces',
+  rating: 5,
+  text: 'Nossa muito obrigada pelo trabalho de vocês, ficou tudo incrivel, engajaram super as minhas vendas e as minhas divulgações 😁🫶🏻'
 }];
 
 export function TestimonialsSection() {
@@ -28,7 +36,7 @@ export function TestimonialsSection() {
           </p>
         </div>
 
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
           {testimonials.map((testimonial, index) =>
           <motion.div
             key={testimonial.id}
@@ -71,9 +79,9 @@ export function TestimonialsSection() {
 
               {/* Author */}
               <div className="flex items-center gap-4">
-                <div className="w-14 h-14 rounded-full bg-blue-100 flex items-center justify-center border-2 border-blue-200">
-                  <span className="text-blue-600 font-bold text-lg">
-                    {testimonial.name.charAt(0)}
+                <div className="w-14 h-14 rounded-full bg-blue-100 flex items-center justify-center border-2 border-blue-200 aspect-square">
+                  <span className="text-blue-600 font-bold text-lg flex items-center justify-center">
+                    {testimonial.name.charAt(0).toUpperCase()}
                   </span>
                 </div>
                 <div>
